@@ -21,7 +21,7 @@ const HeroImageSlider = () => {
   }, [])
 
   return (
-    <div className="relative aspect-3/4 overflow-hidden rounded-3xl bg-muted h-full max-h-[520px]">
+    <div className="relative w-full max-w-md aspect-3/4 overflow-hidden rounded-3xl bg-muted md:max-h-[520px]">
       {images.map((src, i) => (
         <div
           key={src}

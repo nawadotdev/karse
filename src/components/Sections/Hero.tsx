@@ -8,23 +8,23 @@ const Hero = () => {
         <div
           className="
             grid min-h-[calc(100vh-4rem)]
-            items-center gap-16
+            place-items-center
             md:grid-cols-2
           "
         >
-          <div>
-            <h1 className="mb-6 text-4xl leading-tight text-foreground md:text-5xl lg:text-6xl font-heading text-center md:text-start">
+          <div className="flex w-full flex-col items-center md:items-start justify-center">
+            <h1 className="mb-6 max-w-xl text-center md:text-left text-4xl leading-tight text-foreground md:text-5xl lg:text-6xl font-heading">
               Zamansız <br className="hidden md:block" />
               Keten Tasarımlar
             </h1>
 
-            <p className="max-w-md text-muted-foreground leading-relaxed">
+            <p className="max-w-md text-center md:text-left text-muted-foreground leading-relaxed">
               Doğadan ilham alan, sade ve sürdürülebilir keten gömlekler.
               KARŞE ile şıklık ve rahatlık doğal bir dengeye kavuşur.
             </p>
           </div>
 
-          <div className="relative">
+          <div className="flex w-full justify-center md:justify-end">
             <HeroImageSlider />
           </div>
         </div>
