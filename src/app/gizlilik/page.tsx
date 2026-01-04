@@ -54,10 +54,6 @@ const GizlilikPage = () => {
             kullanılabilir. Tarayıcı ayarlarınızdan çerezleri kontrol
             edebilirsiniz.
           </p>
-
-          <h2 className="text-foreground font-medium">
-            5. İletişim
-          </h2>
           <p>
             Gizlilik politikamız hakkında sorularınız için{" "}
             <a

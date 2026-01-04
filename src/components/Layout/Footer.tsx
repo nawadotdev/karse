@@ -50,14 +50,6 @@ const Footer = () => {
                   Koleksiyon
                 </Link>
               </li>
-              <li>
-                <Link
-                  href="/#iletisim"
-                  className="text-muted-foreground transition-colors hover:text-primary"
-                >
-                  İletişim
-                </Link>
-              </li>
             </ul>
           </div>
 

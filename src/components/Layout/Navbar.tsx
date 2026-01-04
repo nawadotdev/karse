@@ -17,7 +17,6 @@ const NAV_ITEMS = [
     { href: "/", label: "Ana Sayfa" },
     { href: "/#hakkimizda", label: "Hakkımızda" },
     { href: "/#koleksiyon", label: "Koleksiyon" },
-    { href: "/#iletisim", label: "İletişim" },
 ]
 
 const Navbar = () => {
