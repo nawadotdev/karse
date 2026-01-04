@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+---
 
-First, run the development server:
+## 🖼 Görseller
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Ürün görselleri ve hero slider, aynı tasarıma sahip üç farklı keten gömlek rengini temsil eder:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Black Beauty  
+- Ballad Blue  
+- Coconut Milk  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Görseller `/public` dizini altında yer alır.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🔍 SEO & Metadata
 
-To learn more about Next.js, take a look at the following resources:
+- Dinamik title template
+- Open Graph desteği
+- Mobil ve sosyal paylaşım uyumlu
+- KVKK ve Gizlilik sayfaları ayrı route’lar olarak tanımlıdır
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📄 Hukuki Sayfalar
 
-## Deploy on Vercel
+- KVKK Aydınlatma Metni
+- Gizlilik Politikası
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Bu sayfalar `app/kvkk` ve `app/gizlilik` altında yer alır.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🏷 Marka
+
+**KARŞE Keten Giyim Tekstil Sanayi ve Ticaret A.Ş.**  
+Merter Mahallesi, Giyimkent Caddesi No:45/3  
+34173 Esenler / İstanbul, Türkiye  
+
+📩 info@karseketengiyim.com  
+📷 Instagram: **@karseketen**
+
+---
+
+## 📌 Not
+
+Bu proje bir e-ticaret uygulaması değildir.  
+**Marka sunumu ve görsel vitrin** amacıyla tasarlanmıştır.
