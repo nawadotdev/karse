@@ -3,6 +3,7 @@ import { Inter, Libre_Baskerville } from "next/font/google"
 import "./globals.css"
 import Navbar from "@/components/Layout/Navbar"
 import Footer from "@/components/Layout/Footer"
+import { CartProvider } from "@/context/CartContext"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -67,13 +68,15 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${libre.variable} antialiased bg-background text-foreground`}
       >
-        <Navbar />
+        <CartProvider>
+          <Navbar />
 
-        <main className="pt-16">
-          {children}
-        </main>
+          <main className="pt-16">
+            {children}
+          </main>
 
-        <Footer />
+          <Footer />
+        </CartProvider>
       </body>
     </html>
   )
