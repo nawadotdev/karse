@@ -11,19 +11,19 @@ export const PRODUCTS = {
       sizes: SIZES
     },
     BALLAD_BLUE: {
-      id: "linen-shirt-ballad-blue",
+      id: "linen-shirt-bright-white",
       name: "Keten Gömlek",
-      variant: "Ballad Blue",
+      variant: "Bright White",
       price: 850,
-      image: "/ballad-blue.png",
+      image: "/bright-white.png",
       sizes: SIZES
     },
     COCONUT_MILK: {
-      id: "linen-shirt-coconut-milk",
+      id: "linen-shirt-classic-blue",
       name: "Keten Gömlek",
-      variant: "Coconut Milk",
+      variant: "Classic Blue",
       price: 850,
-      image: "/coconut-milk.png",
+      image: "/classic-blue.png",
       sizes: SIZES
     },
   } as const

@@ -2,12 +2,9 @@
 
 import React, { useEffect, useState } from "react"
 import Image from "next/image"
+import { PRODUCTS } from "@/constants/products"
 
-const images = [
-  "/black-beauty.png",
-  "/ballad-blue.png",
-  "/coconut-milk.png",
-]
+const images = Object.values(PRODUCTS).map(p => p.image)
 
 const HeroImageSlider = () => {
   const [index, setIndex] = useState(0)

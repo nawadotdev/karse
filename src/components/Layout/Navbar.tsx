@@ -72,7 +72,7 @@ const Navbar = () => {
             <ShoppingBag className="h-5 w-5" />
 
             {totalQuantity > 0 && (
-              <span className="absolute -left-1 -top-1 flex h-5 min-w-[20px] items-center justify-center rounded-full bg-primary px-1 text-xs font-medium text-primary-foreground">
+              <span suppressContentEditableWarning className="absolute -left-1 -top-1 flex h-5 min-w-[20px] items-center justify-center rounded-full bg-primary px-1 text-xs font-medium text-primary-foreground">
                 {totalQuantity}
               </span>
             )}
